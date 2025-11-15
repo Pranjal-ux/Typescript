@@ -23,7 +23,6 @@ console.log(obj)
 let a = new Humans("Harsh",2006)
 console.log(a)
 
-// Example=>2
 
 class BottleMaker{
     constructor(public brand:string,public price:number,public color:string){
