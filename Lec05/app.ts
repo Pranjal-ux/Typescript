@@ -65,15 +65,44 @@
 
 //READONLY PRROPERTY
 
-class Animal{
-    constructor(public name:string){
+// class Animal{
+//     constructor(public readonly name:string){
 
-    }
-    changeName(){
-        this.name = "Sherrr"
-    }
-}
-let a = new Animal("chittta")
-console.log(a)
-a.changeName()
-console.log(a)
+//     }
+//     changeName(){
+//         this.name = "Sherrr"
+//     }
+// }
+// let a = new Animal("chittta")
+// console.log(a)
+// a.changeName()
+// console.log(a)
+
+//Getter Setter
+
+// This get and set method we generally use in typescript
+
+// class Car{
+//     constructor(public _name:string,public age:number) {
+        
+//     }
+//     get name(){
+//   return this._name  
+//     }
+//     set name(value:string){
+// this._name=value
+//     }
+// }
+//  let a  =  new Car("Harsh",23)
+// a.name="Jian"
+// console.log(a.name)
+
+
+//Static=>We can use our method without creating his instance 
+ class School{
+   static id =  2200
+   static getRandomNumber(){
+   return Math.random()
+   }
+ }
+console.log( School.id,School.getRandomNumber())
