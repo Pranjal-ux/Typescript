@@ -98,7 +98,7 @@
 // console.log(a.name)
 
 
-//Static=>We can use our method without creating his instance 
+//Static=>We can use our method without creating  instance  of a class
  class School{
    static id =  2200
    static getRandomNumber(){
