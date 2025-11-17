@@ -99,10 +99,10 @@
 
 
 //Static=>We can use our method without creating  instance  of a class
- class School{
-   static id =  2200
-   static getRandomNumber(){
-   return Math.random()
-   }
- }
-console.log( School.id,School.getRandomNumber())
+//  class School{
+//    static id =  2200
+//    static getRandomNumber(){
+//    return Math.random()
+//    }
+//  }
+// console.log( School.id,School.getRandomNumber())
